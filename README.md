@@ -1,4 +1,4 @@
-# Layouts User Badges Widget
+# 🏅 Layouts User Badges Widget
 
 The User Badges Widget allows each user to see what badges they have received in a sidebar.
 
