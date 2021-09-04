@@ -1,0 +1,5 @@
+en:
+  theme_metadata:
+    description: "Widget for layouts plugin that lists the current user's badges"
+  header_title: 'My Badges'
+  no_badges: 'You have not received any badges'

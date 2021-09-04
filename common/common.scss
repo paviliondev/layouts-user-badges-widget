@@ -1,0 +1,52 @@
+.layouts-user-badges {
+  a.layouts-badge-header {
+    margin-bottom: 1rem;
+    display: block;
+    font-size: var(--font-up-1);
+    color: var(--primary);
+    font-weight: bold;
+    transition: color 0.25s ease;
+    &:hover {
+      color: var(--primary-low-mid);
+    }
+  }
+
+  .layouts-badge-items {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+
+    .layouts-user-badge {
+      margin: 0.25rem 0;
+      padding: 0.5rem;
+      background: var(--primary-very-low);
+      border: 1px solid var(--primary-low);
+      transition: 0.25s ease;
+
+      .badge-link {
+        .d-icon {
+          margin-right: 0.5rem;
+        }
+
+        &.badge-type-bronze .d-icon {
+          color: var(--bronze);
+        }
+
+        &.badge-type-silver .d-icon {
+          color: var(--silver);
+        }
+
+        &.badge-type-gold .d-icon {
+          color: var(--gold);
+        }
+      }
+
+      &:hover,
+      &:focus {
+        background: var(--primary-low);
+        cursor: pointer;
+      }
+    }
+  }
+}

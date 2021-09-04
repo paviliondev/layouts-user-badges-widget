@@ -1,0 +1,6 @@
+hidden_tags:
+  type: list
+  list_type: badge
+  default: ''
+  description:
+    en: 'Select specific tags to hide in the layout'
